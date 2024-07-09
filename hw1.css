@@ -1,0 +1,43 @@
+.color-grid {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    border: 5px rgb(255, 255, 255) solid;
+}
+  
+.color-grid-item {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    border: 5px rgb(255, 255, 255) solid;
+}
+  
+.box-text {
+    margin: auto;
+}
+  
+.box-1 {
+    background-color: rgb(255, 8, 0);
+    color: white;
+}
+  
+.box-2 {
+    background-color: rgb(255, 149, 0);
+    color: black;
+}
+  
+.box-3 {
+    background-color: rgb(240, 240, 73);
+    color: black;
+}
+  
+.box-4 {
+    background-color: rgb(0, 255, 85);
+    color: black;
+}
+  
+.box-5 {
+    background-color: rgb(13, 111, 238);
+    color: black;
+  
+    grid-column: 2 /4;
+}
